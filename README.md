@@ -9,7 +9,7 @@ cd python-base64-converter
 
 ### Example
 ```
-add your file or use hello.txt
+add your file or use example.txt
 for encode using : python3 encode.py
 for decode using : python3 decode.py
 ```
