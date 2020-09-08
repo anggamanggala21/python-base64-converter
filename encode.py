@@ -6,7 +6,7 @@ import pathlib
 print("===============================================")
 print("|           ENCODE STRING TO BASE64           |")
 print("|              BY ANGGA MANGGALA              |")
-print("===============================================")
+print("===============================================\n")
 file_name = input("Enter file name : ")
 try:
 
