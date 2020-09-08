@@ -3,6 +3,10 @@ import random
 import string
 import pathlib
 
+print("===============================================")
+print("|           ENCODE STRING TO BASE64           |")
+print("|              BY ANGGA MANGGALA              |")
+print("===============================================")
 file_name = input("Enter file name : ")
 try:
 
@@ -18,7 +22,7 @@ try:
 	fw.write(str(base64.decode()))
 	fw.close()
 	
-	print("Decode file saved in file ", new_file_name)
+	print("Decode file saved in file :", new_file_name)
 	print("Success !")
 
 except Exception:
